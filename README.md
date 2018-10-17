@@ -12,11 +12,11 @@ Idea 1: Medication assistance and safety for Alzheimer patients
 
 Abstract
 
-“Alzheimer's is a type of dementia that causes problems with memory, thinking and behavior. Symptoms usually develop slowly and get worse over time, becoming severe enough to interfere with daily tasks.”[1] 
+	“Alzheimer's is a type of dementia that causes problems with memory, thinking and behavior. Symptoms usually develop slowly and get worse over time, becoming severe enough to interfere with daily tasks.”[1] 
 
 Addressing the problem: 
 
-Alzheimer patients have a history of facing severe health disasters because of missed medications. Patients with Alzheimer live an average of eight years after their symptoms are noticeable to others, which is a concerningly small span of time.
+	Alzheimer patients have a history of facing severe health disasters because of missed medications. Patients with Alzheimer live an average of eight years after their symptoms are noticeable to others, which is a concerningly small span of time.
 
 There are 3 main things Alzheimer patients need help for:
 
@@ -26,7 +26,7 @@ There are 3 main things Alzheimer patients need help for:
 
 Proposed Solution:
 
-The pill boxes available in the market solve the problem of patients for organization of medicines quite a bit, but Alzheimer patients need much more than medicine organization. 
+	The pill boxes available in the market solve the problem of patients for organization of medicines quite a bit, but Alzheimer patients need much more than medicine organization. 
 The solution for all the addressed problems can be an IOT device which solves each of the problems for the patients, and eventually reducing health risks for the patients. A Raspberry Pi model can be used to get medicine data from the pill boxes, sending the data to cloud, evaluating the data and finally simplify the situation for the patient.
 
 Methodology:
@@ -49,8 +49,6 @@ Abstract:
 
 Methodology: Use a tag created using blockchain technology and embedding it with smart sensors to detect location. 
 
-
-
 Idea 3: Docker Wine
 
 Abstract: 
@@ -59,15 +57,13 @@ Abstract:
 
 Methodology:
 
-Wine on Docker with dynamic graphic drivers and VirtualGL with both local and remote support. It works out of the box with all Nvidia cards and Nvidia drivers and most other cards as well that use Mesa drivers. It is setup to auto adapt to whatever drivers you may have installed as long as they are the most recent ones for your branch.
-
-
+	Wine on Docker with dynamic graphic drivers and VirtualGL with both local and remote support. It works out of the box with all Nvidia cards and Nvidia drivers and most other cards as well that use Mesa drivers. It is setup to auto adapt to whatever drivers you may have installed as long as they are the most recent ones for your branch.
 
 Idea 4: CMT Container migration tool
 
 Abstract:
 
-Checkpoint & Restore is still a feature which is not generically available to container users. Certain understanding about how it works is needed and it’s most likely that users get errors when trying to perform CR due to some restrictions or differences between the source and the target host. The purpose of the project is to create an external command line tool that can be either used with docker or runC which helps on the task to live migrate containers between different hosts by performing pre-migration validations and allowing to auto-discover suitable target hosts.
+	Checkpoint & Restore is still a feature which is not generically available to container users. Certain understanding about how it works is needed and it’s most likely that users get errors when trying to perform CR due to some restrictions or differences between the source and the target host. The purpose of the project is to create an external command line tool that can be either used with docker or runC which helps on the task to live migrate containers between different hosts by performing pre-migration validations and allowing to auto-discover suitable target hosts.
 
 Methodology:
 
