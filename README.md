@@ -1,4 +1,4 @@
-# Project-Team-10
+# Project-Team-10 I need to understand more on ideas 3 and 4 can you change readme and elaborate more before I approve?
 
 Student Names:
 1)	Drusti Thakkar – Team Lead
