@@ -6,9 +6,9 @@ Student Names:
 3)	Divjyot Singh Khanuja
 4)	Jasnoor Brar
 
-No of Ideas: 04
+No of Ideas: 02
 
-Idea 1: Medication assistance and safety for Alzheimer patients
+Idea 1: Medication assistance and safety for Alzheimer patients MODIFIED ## 
 
 Abstract
 
@@ -39,39 +39,8 @@ REFERENCES
 1.	Alzheimer’s Association: https://www.alz.org/alzheimers-dementia/what-is-alzheimers
 
 
-
-Idea 2: Protecting valuable belongings using blockchain
-
-Abstract: 
-
-Millions of people today have been victim to theft, a record increasing every year. Everybody owns valuable items such as jewelry, electronic gadgets, easy mode of transportation such as bicycles and bird bikes etc. Some items also hold emotional value such as gifts and ancestral items. With the increase in theft cases, such items become very vulnerable to robbery and its very disturbing to lose any of these items. The government does provide us with the facility of reporting such crimes to the police department with the hope of recovering the lost item. However, it’s very difficult to recover items which do not have a tracking system. This is where blockchain comes to rescue by giving the items a digital identity. The project aims at providing a mechanism to write a proof of ownership to the Ethereum blockchain thereby making the recovery of stolen items easier.
-
-Methodology: 
-
-Use a tag created using blockchain technology and embedding it with smart sensors to detect location. 
-
-
-
-Idea 3: Docker Wine
-
-Abstract: 
-
-One of the big drawbacks of Docker contains as compared to virtual machines is that Dockerized apps are not cross-platform. You can’t run a Docker Linux app on Windows or vice-versa—at least not natively. With Docker-Wine, however, running Windows apps on Linux using Docker is possible. Docker-Wine uses the Wine Compatibility Layer to support Windows app on Linux. (There’s no support for Linux apps on Windows, as that would be a whole different can of worms.)
-
-Methodology:
-
-Wine on Docker with dynamic graphic drivers and VirtualGL with both local and remote support. It works out of the box with all Nvidia cards and Nvidia drivers and most other cards as well that use Mesa drivers. It is setup to auto adapt to whatever drivers you may have installed as long as they are the most recent ones for your branch.
-
-
-
-Idea 4: CMT Container migration tool
+Idea 2: Docker GUI
 
 Abstract:
 
-Checkpoint & Restore is still a feature which is not generically available to container users. Certain understanding about how it works is needed and it’s most likely that users get errors when trying to perform CR due to some restrictions or differences between the source and the target host. The purpose of the project is to create an external command line tool that can be either used with docker or runC which helps on the task to live migrate containers between different hosts by performing pre-migration validations and allowing to auto-discover suitable target hosts.
-
-Methodology:
-
-This project uses custom patched versions of runC to work. It's important to install these specific versions for CMT to work. CRIU patch has been already proposed to upstream, we hold on runC on the other hand because we needed to implement it fast and we're not sure of any impact on the project.
-
-
+Creating a GUI to make docker use really simple. It lets the user run docker container, without the use of docker run , etc commands. Simulation of docker commands into one web oe desktop application. Since there is a desktop application known as kitematic for Linux and Mac OS, we would be creating a similar application for Windows OS.
