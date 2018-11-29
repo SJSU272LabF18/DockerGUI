@@ -1,0 +1,28 @@
+.DS_Store
+.swp
+build
+dist
+dist-electron-builder/
+release
+src/**/*.js.map
+installer
+node_modules
+coverage
+npm-debug.log
+
+# Integration test environment
+integration
+
+# Resources
+resources/docker*
+resources/boot2docker*
+
+# Cache
+cache
+
+# Tests
+.test
+settings.json
+
+# IDEs
+.idea
