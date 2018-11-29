@@ -1,5 +1,6 @@
 # Docker GUI
 
+# ***Updated the features in Readme as per professors recommendation***
 ### Members:
 
 1. Drusti Thakkar
@@ -32,3 +33,10 @@ Electron is a framework for creating native applications with web technologies l
 4. Create new containers by using generic images.
 5. Docker hub integration.
 6. View all images available on your docker hub account and create containers from it.
+
+### Additional Features (In progress)
+
+1. Create a dockerfile through a user form which requires user to populate his dependencies and ports required to be exposed.
+2. Upload a docker compose file directly and have a stack running just by hitting the start button.
+3. Push images to heroku to support CI/CD.
+4. Create a network through the application and group containers under the same network.
